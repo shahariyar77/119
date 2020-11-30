@@ -1,0 +1,74 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.section-padding{
+    padding: 100px 0;
+}
+.main-manu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-manu ul li{
+    display: inline-block;
+    
+}
+.main-manu li a {
+	display: block;
+	padding: 15px;
+	color: #333;
+	font-size: 20px;
+	font-weight: 700;
+}
+/*========================   Nav manu ==================*/
+.main-manu{
+   margin-left: 27%;
+   
+}
+.main-manu li {
+  position: relative;
+}
+.main-manu li ul {
+  position: absolute;
+  left: 0;
+  width: 250px;
+  background: #000000;
+  padding: 15px 0;
+}
+.main-manu li ul li {
+	display:block;
+}
+.main-manu li ul li a {
+  display: block;
+  padding: 15px 15px;
+  color: #999;
+}
+.main-manu li ul {
+  transition: .3s;
+  opacity: 0;
+  visibility: hidden;
+    margin-left: 20px;
+}
+.main-manu li:hover ul {
+  opacity: 1;
+  visibility: visible;
+    margin-left: 0;
+}
+.main-manu li:hover>a {
+  color: #e5196f;
+  text-decoration: none;
+}
+.main-manu li:hover li:hover > a {
+  background: #e5176e;
+  color: #fff;
+}
+
+
+
+
+
+
